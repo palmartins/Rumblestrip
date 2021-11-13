@@ -46,3 +46,6 @@ _deps
 build
 
 [Bb][Uu][Ii][Ll][Dd]/
+
+launch.json
+tasks.json
