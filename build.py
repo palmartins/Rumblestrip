@@ -28,4 +28,8 @@ cmake(
     '-B', 'build', '-G', get_generator()
 )
 
+cmake(
+    '--build',  'build'
+)
+
 sys.exit(0)
