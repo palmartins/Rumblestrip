@@ -1,4 +1,4 @@
-#include "include/lexer.h"
+#include "lexer.h"
 
 bool is_space(char c) noexcept {
   switch (c) {

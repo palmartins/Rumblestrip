@@ -1,6 +1,6 @@
 #include <iostream>
-#include "src/include/token.h"
-#include "src/include/lexer.h"
+#include "token.h"
+#include "lexer.h"
 
 std::ostream& operator<<(std::ostream& os, const Token::Kind& kind) {
   static const char* const names[]{

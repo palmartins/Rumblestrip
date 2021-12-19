@@ -56,6 +56,7 @@ class Token {
 
   template <typename... Ts>
   bool is_one_of(Kind k1, Kind k2, Ts... ks) const noexcept {
+    std::cout<<"WTF is this doing here"<<std::endl;
     return is(k1) || is_one_of(k2, ks...);
   }
 
